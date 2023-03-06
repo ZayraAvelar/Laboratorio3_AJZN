@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Generar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="5dp"
+        android:onClick="showGenerar"
+        android:text="Generar"
+        tools:ignore="HardcodedText,TextSizeCheck,VisualLintButtonSize" />
+
+
+    <Button
+        android:id="@+id/mostrar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="launchSecondActivity"
+        android:text="Mostrar Frase"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/txtNumero"
+        android:layout_width="match_parent"
+        android:layout_height="661dp"
+        android:layout_above="@+id/mostrar"
+        android:layout_below="@id/Generar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="-200dp"
+        android:background="#F8DF02"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="190sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+</RelativeLayout>

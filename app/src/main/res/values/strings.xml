@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">"Frases Célebres"</string>
+    <string name="generar">"Generar"</string>
+    <string name="mostrarfrase">"MostrarFrase"</string>
+    <string name="_1">0</string>
+    <string name="frase1">\"No hay que ir para atrás ni para darse impulso\"</string>
+    <string name="autor_rase1">"Lao Tsé"</string>
+    <string name="frase2">\"No hay caminos para la paz; la paz es el camino\"</string>
+    <string name="autor_frase2">"Mahatma Gandhi"</string>
+    <string name="frase3">\"Haz el amor y no la guerra\"</string>
+    <string name="autor_frase3">"John Lennon"</string>
+</resources>
